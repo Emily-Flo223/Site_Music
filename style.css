@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    font-size: 16px;
+}
+
+body {
+    background-color:black;
+    font-family: "Source Sans Pro", sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-image:url(https://aventurasnahistoria.uol.com.br/media/_versions/hard_news/festival_widelg.jpg);
+    background-repeat: repeat;
+    background-position: center;
+}
+
+header > nav {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #062829;
+    margin-bottom: 320px;
+    padding: 8px;   
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    line-height: 30px;
+}
+
+li > a {
+    text-decoration: none;
+    color: darkgray;
+    font-weight: bold;
+}
+
+li > :hover {
+    font-weight: bold;
+    color:darkslateblue;
+}
+
+.nav-lista-container {
+    max-width: 360px;
+    min-width: 300px;
+}
+
+header h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: #42a85f;
+}
+
+header h3 {
+     text-align: center;
+     font-size: 1.3rem;
+     font-weight: lighter;
+     color: white;
+     
+}
+
+.header-títulos {
+   line-height: 40px;
+   margin-bottom: 60px;
+}
+
+.main-img-descritivo-container {
+    background-color: #b95b92;
+    display: block;
+    justify-content: center;
+    color: darkgray;
+    margin: 25px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 4px solid rgb(160, 224, 165);
+    box-shadow: 3px 2px 5px 4px forestgreen;
+}
+
+.main-descritivo-img {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 90px;
+}
+
+.main-descritivo-texto {
+    display: flex;
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 25px;
+} 
+
+.main__div__img__estilos {
+    width: 150px;
+    height: auto;
+    padding-left: 5px;
+    border-radius: 20px;
+}
+
+.section__estilos {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+main img {
+    transition: all .5s ease 0s;
+}
+
+main img:active {
+    transform: scale(1.1);
+    transition: all .5s ease 0s;
+}
+
+main img:hover {
+    transform: scale(1.1);
+}
+
+img + p {
+    display: none;
+}
+
+.main-quadupla-estilos-musicais {
+    display: block;
+    align-items: center;
+}
+
+.main-img-hp {
+    width: 250px;
+    height: auto;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.main-nav-hits-podcast {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px 20px 30px;
+    flex-wrap: wrap;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: rgb(38, 139, 47);
+}
+
+footer {
+    background-color: #202020;
+    padding: 15px;
+    text-align: center;
+    margin-top: 50px;
+    color: darkgray;
+}
+
+.footer-a-img {
+    width: 40px;
+    padding: 10px;
+}
+
+footer div {
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color:green;
+    font-size: 1.5rem;
+}
+
+footer ul {
+    list-style: none;
+    line-height: 25px;
+    padding: 0px;
+    margin-top: 10px;
+
+}
+
+.footer-contato-lista {
+    display: flex;
+    justify-content: center;
+}
+
+footer li:first-child {
+    color: rgb(113, 20, 220);
+    font-weight:bold; 
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-texto {
+    margin-top: 60px;
+    color: rgb(38, 230, 96);
+    font-weight: bold;
+}
+
+.footer-button {
+    border-style: solid;
+    margin: 10px;
+    padding: 10px;
+    border-color: rgb(117, 0, 0);
+    background-color:rgb(117, 0, 0);
+    font-weight: bold;
+    color: white;
+}
+
+.footer-button:hover {
+    border-color: greenyellow;
+    background-color:greenyellow;
+}
+
+@media screen and (min-width: 830px) {
+
+    li > :hover {
+        color: lightseagreen;
+    }
+
+    .main-img-descritivo-container  {
+        max-width: 900px;
+        min-width: 60px;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        box-shadow: 2px 3px 4px 4px rgb(136, 20, 5);
+        background-color: #b43d3d; 
+        color: im;
+    }   
+
+    .main-descritivo-texto {
+        color: white;
+        font-weight: lighter;
+    }
+
+    .section__estilos {
+        display: block;
+    }
+    
+    .main-quadupla-estilos-musicais {
+        display: flex;
+        padding: 5px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main h2 {
+        background-color: darkred;
+    }
+
+    header h1:hover {
+        font-weight: bold;
+        color: darkred;
+        transform: scale(1.1);
+        transition: all .5s ease 0s;
+    }
+
+    img + p {
+        color: rgb(107, 94, 94);
+        font-weight: bold;
+        text-align: center;
+        display: block;
+    }
+
+    img + p:hover {
+        color: rgb(55, 165, 51);
+    }
+
+    .footer-texto {
+        color: rgb(236, 22, 22);
+    }
+
+    footer li:first-child {
+        color: lightseagreen;
+    }
+
+    header > nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul {
+        justify-content: space-between;
+    }
+}
